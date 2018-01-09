@@ -10,7 +10,7 @@ install_java() {
   echo "Installing JAVA"
   mkdir /tmp/jdk
   mkdir $dir
-  tar xzf jre-8u144-linux-i586.tar.gz -C /tmp/jdk
+  tar xzf jre-9.0.1_linux-x64_bin.tar.gz -C /tmp/jdk
   rm -rf $dir/*
   mv /tmp/jdk/jre-9.0.1/* $dir
   chmod +x $dir/bin
