@@ -54,3 +54,9 @@ dependencies:
     md5: d0c010517efff468651f0df80bc62adc
     cf_stacks:
       - cflinuxfs2
+  - name: node
+    version: 6.12.0
+    uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-6.12.0-linux-x64-87c5152f.tgz
+    sha256: 87c5152febdd9f4ffa0691e4630a45874c21b63d1b1a7a85cfb765f1da41c8a0
+    cf_stacks:
+      - cflinuxfs2
